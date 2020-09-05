@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: test
+
+---
+server:
+  port: 11111
+spring:
+  profiles: dev
+  application:
+    name: test-cloud-dev2.0
+---
+spring:
+  profiles: test
+  application:
+    name: test-cloud-test2.0
